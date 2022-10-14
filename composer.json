@@ -1,0 +1,19 @@
+{
+    "name": "belajar/mvc",
+    "description": "Concept MVC Programmer Zaman Now",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Belajar\\Mvc\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marleess Windows",
+            "email": "marleysumarly@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8"
+    }
+}
