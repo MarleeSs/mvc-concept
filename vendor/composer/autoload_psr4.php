@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Belajar\\Mvc\\' => array($baseDir . '/src'),
+    'Belajar\\Mvc\\' => array($baseDir . '/app'),
 );
