@@ -4,14 +4,14 @@ namespace Belajar\Mvc\Controller;
 
 use Belajar\Mvc\App\View;
 
-class HomeController
+class LoginController
 {
     public function index(): void
     {
         $model = [
-            'title' => 'Home',
-            'content' => 'Home Page'
+            'title' => 'Login',
+            'content' => 'Login Page'
         ];
-        View::render('Home/index', $model);
+        View::render('Login/index', $model);
     }
 }

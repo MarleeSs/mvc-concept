@@ -7,6 +7,11 @@
             "Belajar\\Mvc\\": "app/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Belajar\\Mvc\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Marleess Windows",
@@ -15,5 +20,8 @@
     ],
     "require": {
         "php": ">=8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }

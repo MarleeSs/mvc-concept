@@ -4,14 +4,14 @@ namespace Belajar\Mvc\Controller;
 
 use Belajar\Mvc\App\View;
 
-class HomeController
+class DataController
 {
     public function index(): void
     {
         $model = [
-            'title' => 'Home',
-            'content' => 'Home Page'
+            'title' => 'Data',
+            'content' => 'Data Page'
         ];
-        View::render('Home/index', $model);
+        View::render('Data/index', $model);
     }
 }
